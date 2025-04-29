@@ -24,4 +24,4 @@ jobs:
           fetch-depth: 0
 
       - name: Run Yardoc
-        run: git diff origin/master...HEAD --name-only -- '*.rb'
+        run: git diff origin/main...HEAD --name-only -- '*.rb'
