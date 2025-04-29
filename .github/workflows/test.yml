@@ -20,8 +20,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 11
 
       - name: Run Yardoc
-        run: git diff origin/main...HEAD --name-only -- '*.rb'
+        run: git diff HEAD~ --name-only -- '*.rb'
