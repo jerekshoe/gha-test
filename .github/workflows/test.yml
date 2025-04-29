@@ -24,4 +24,4 @@ jobs:
           fetch-depth: 2
 
       - name: Run Yardoc
-        run: git log --oneline'
+        run: git log --oneline
